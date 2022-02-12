@@ -1,0 +1,54 @@
+.card-info {
+  width: 60vw;
+  height: 60vh;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-info a:hover {
+  color: rgb(56, 56, 167);
+}
+
+.room-number {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.back {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.contents {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents h1 {
+  margin: 2rem 0;
+  font-size: 2.8rem;
+}
+
+.contents h2 {
+  font-size: 2rem;
+}
+
+.face {
+  font-size: 15rem;
+}

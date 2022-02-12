@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Home, Toilet } from './pages';
-import { Navbar } from './.component';
+import { Navbar } from './components';
 
 const App = () => {
   return (
